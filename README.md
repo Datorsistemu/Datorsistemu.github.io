@@ -4,22 +4,33 @@ Piemērs
 <img width="675" height="749" alt="image" src="https://github.com/user-attachments/assets/43badaa8-c930-49d3-94ac-54e5ba00d45e" /> WALL (DRAW.IO)
 <img width="836" height="702" alt="Ekrānuzņēmums 2026-05-29 124435" src="https://github.com/user-attachments/assets/a222a48d-ac72-4d18-9177-81a007ff3c82" />
 <img width="814" height="753" alt="image" src="https://github.com/user-attachments/assets/1e99ddfa-892d-4644-bd30-26a548fa939f" />
-1. 	Maršrutētājs                                         Gigabit Ethernet porti, NAT atbalsts, Firewall funkcija, VLAN atbalsts, DHCP serveris, VPN funkcionalitāte
-2.  Pārvaldāms komutators (Managed Switch)	            24x Gigabit RJ45 porti, Layer 3 funkcionalitāte, VLAN atbalsts, PoE atbalsts, 1 Gbit/s datu pārraide
-3.  Bezvadu piekļuves punkts (Access Point)	            Wi-Fi 6 standarts, WPA2/WPA3 drošība, Dual-Band 2.4 GHz/5 GHz, PoE barošana
-4.	Nepārtrauktās barošanas avots (UPS)	                1000–1500 VA jauda, aizsardzība pret sprieguma svārstībām, rezerves barošana līdz 20 minūtēm
-5.	Tīkla skapis (Rack 19”)	                            12U sienas skapis, ventilācija, slēdzamas durvis, 19 collu standarts
-6.	Patch panelis                                       CAT6	24 porti, RJ45 savienojumi, CAT6 standarts
-7.	CAT6 UTP kabelis	                                  Datu pārraide līdz 1 Gbit/s, frekvence 250 MHz, paredzēts strukturētai kabeļu sistēmai
-8.	RJ45 datu rozetes	                                  CAT6 standarts, sienas montāža, 2 portu konfigurācija
-9.	RJ45 konektori	                                    CAT6 savietojamība, plastmasas korpuss, 8P8C standarts
-10.	Patch kabeļi	                                      CAT6, garums 1–3 m, RJ45 savienojumi abos galos
-11.	Kabeļu kanāli	                                      PVC materiāls, paredzēti kabeļu aizsardzībai un organizēšanai
-12.	Kabeļu savilcēji	                                  Neilona materiāls, paredzēti kabeļu stiprināšanai
-13.	Kabeļu marķieri	                                    Paredzēti kabeļu identifikācijai un dokumentēšanai
-14.	Elektrības pagarinātāji / PDU	                      220V barošana, pārsprieguma aizsardzība
-15.	Skrūves un stiprinājumi	                            Tīkla skapja, rozešu un kabeļu kanālu montāžai
-16.	Servera ventilācijas panelis	                      Nodrošina gaisa cirkulāciju tīkla skapī
-17.	Printera tīkla kabelis	                            CAT6 kabelis, RJ45 savienojums
-18.	Wi-Fi kontrolieris (ja nepieciešams)	              Centralizēta Access Point pārvaldība
-19. Zemējuma savienojums Rack skapim	                  Elektroaizsardzība un drošības prasību ievērošana
+1. 	Maršrutētājs    .......   Gigabit Ethernet porti, NAT atbalsts, Firewall funkcija, VLAN atbalsts, DHCP serveris, VPN funkcionalitāte
+2.  Pārvaldāms komutators (Managed Switch)	    .......    24x Gigabit RJ45 porti, Layer 3 funkcionalitāte, VLAN atbalsts, PoE atbalsts, 1 Gbit/s datu pārraide
+3.  Bezvadu piekļuves punkts (Access Point)	   .......         Wi-Fi 6 standarts, WPA2/WPA3 drošība, Dual-Band 2.4 GHz/5 GHz, PoE barošana
+4.	Nepārtrauktās barošanas avots (UPS)	     .......           1000–1500 VA jauda, aizsardzība pret sprieguma svārstībām, rezerves barošana līdz 20 minūtēm
+5.	Tīkla skapis (Rack 19”)	            .......                12U sienas skapis, ventilācija, slēdzamas durvis, 19 collu standarts
+6.	Patch panelis                    .......                    CAT6	24 porti, RJ45 savienojumi, CAT6 standarts
+7.	CAT6 UTP kabelis	                .......                   Datu pārraide līdz 1 Gbit/s, frekvence 250 MHz, paredzēts strukturētai kabeļu sistēmai
+8.	RJ45 datu rozetes	                .......                   CAT6 standarts, sienas montāža, 2 portu konfigurācija
+9.	RJ45 konektori	                 .......                    CAT6 savietojamība, plastmasas korpuss, 8P8C standarts
+10.	Patch kabeļi	                    .......                   CAT6, garums 1–3 m, RJ45 savienojumi abos galos
+11.	Kabeļu kanāli	                   .......                    PVC materiāls, paredzēti kabeļu aizsardzībai un organizēšanai
+12.	Kabeļu savilcēji	               .......                    Neilona materiāls, paredzēti kabeļu stiprināšanai
+13.	Kabeļu marķieri	               .......                      Paredzēti kabeļu identifikācijai un dokumentēšanai
+14.	Elektrības pagarinātāji / PDU	   .......                    220V barošana, pārsprieguma aizsardzība
+15.	Skrūves un stiprinājumi	         .......                    Tīkla skapja, rozešu un kabeļu kanālu montāžai
+16.	Servera ventilācijas panelis	     .......                  Nodrošina gaisa cirkulāciju tīkla skapī
+17.	Printera tīkla kabelis           .......                    CAT6 kabelis, RJ45 savienojums
+18.	Wi-Fi kontrolieris (ja nepieciešams)     .......             Centralizēta Access Point pārvaldība
+19. Zemējuma savienojums Rack skapim      .......               Elektroaizsardzība un drošības prasību ievērošana
+
+Вот задание которое тебе надо максимально качественно, правильно и подробно сделать на латышском языке - пока что сделай подробно 1.1 пункт(понятное дело ты делаешь 1.1 пункт беря во внимание целиком всё задание и все просьбы). Тебе надо написать текстом на латышском языке(что бы я мог спокойно скопировать) абсолютно все Tīklu veidojošais fiziskais elements/materiāli(пиши как можно больше элементов, обязательно напиши все важные элементы но и про остальные мелкие не забывай(это очень сильно и строго оценивают) (Укажи все активные сетевые устройства, все пассивные сетевые компоненты, монтажные материалы, элементы кабельной инфраструктуры, элементы электропитания и элементы сетевой безопасности), должно получиться не меньше 20 элементов, которые нужно будет купить и использовать + ко всем им написать их Raksturojošie parametri(тут пиши как можно больше параметров к каждому из элементов и подробно потому что это будут тоже очень сильно и строго оценивать)!
+
+Окей, а теперь также максимально качественно и подробно сделай мне 1.2. пункт (основываясь на всём задании целиком и всем требованиям), тебе нужно брать во внимания абсолютно все мелочи, интернет-кабеля проводи именно по потолкам, используй везде интернет-розетки rj-45 x2(тоесть 2 кабеля можно подклить к 1 розетке), и найди максимально качественно правильные места(по всем стандарта безопасности и IT) для остальных элементов. Каждый стационарный компьютер обязательно должен иметь физическое подключение через RJ45. Ни один стационарный компьютер не может остаться без кабельного подключения. Все беспроводные точки доступа (Access Point) обязательно должны быть подключены к коммутатору отдельным кабелем. Не допускается размещение точки доступа без физического подключения к сети. Место установки сетевого шкафа (Rack) выбери самостоятельно, но обязательно обоснуй его расположение с точки зрения сетевого проектирования (центральное расположение, удобство администрирования и обслуживания). Я прикрепил файл darba_skice_1variants.jpg который ты и должен дополнять и изменять основываясь на том что я написал, ты не можешь добавлять или менять комнаты, стены или как то передвигать вещи которые уже там есть, ты должен только правильно дополнить эту картинку (Если в процессе анализа плана будут обнаружены технические ошибки или неудачные решения, не изменяй помещения, стены, двери, мебель и оборудование, уже находящиеся на плане. Разрешается добавлять только элементы сетевой инфраструктуры (кабели, розетки, точки доступа, сетевой шкаф, обозначения и т.д.).) основываясь на том что я писал раньше!
+
+Окей, а теперь также максимально качественно и подробно сделай мне 1.3. пункт(основываясь на всём задании целиком и всем требованиям), тебе надо сделать схему под мой план и моё задание. Выполни логическую сегментацию сети с использованием отдельных VLAN для сотрудников, гостей, принтеров и администрирования сети. Логическая схема должна соответствовать профессиональным стандартам сетевой документации. На схеме обязательно должны присутствовать: WAN, Router/Firewall, Core Switch, VLAN-сегменты, Wi-Fi сети сотрудников и гостей, принтеры, управление сетью, используемые подсети IP и все основные сетевые соединения. Тебе надо во первых максимально качественно сделать обычной картинкой эту схему и показать мне(для всяких названий и обозначений используй латышский язык, ты можешь использовать английский там где нельзя это обьяснить или написать на латышском) что бы я мог потом её сам сделать в draw.io а потом ты должен написать текстом всё что есть на схеме что бы я так же мог это скопировать без проблем и вставить в свою draw.io схему! Тоесть ты делаешь картинку и присилаешь мне и потом сразу текст который я буду копировать!
+
+А теперь подскажи мне как правильно технически и по всем моментам безопасности + IT профессии сделать 1.4. пункт и правильно всё оформить и отправить им на почту что бы получить макс пункты!
+
+3.uzdevums
+Piemērs
