@@ -1,5 +1,6 @@
 1.uzdevums
 Piemērs
+
 <img width="675" height="749" alt="image" src="https://github.com/user-attachments/assets/43badaa8-c930-49d3-94ac-54e5ba00d45e" /> WALL (DRAW.IO)
 <img width="836" height="702" alt="Ekrānuzņēmums 2026-05-29 124435" src="https://github.com/user-attachments/assets/a222a48d-ac72-4d18-9177-81a007ff3c82" />
 <img width="814" height="753" alt="image" src="https://github.com/user-attachments/assets/1e99ddfa-892d-4644-bd30-26a548fa939f" />
