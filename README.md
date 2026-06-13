@@ -4,7 +4,7 @@ Piemērs
 <img width="675" height="749" alt="image" src="https://github.com/user-attachments/assets/43badaa8-c930-49d3-94ac-54e5ba00d45e" /> WALL (DRAW.IO)
 <img width="836" height="702" alt="Ekrānuzņēmums 2026-05-29 124435" src="https://github.com/user-attachments/assets/a222a48d-ac72-4d18-9177-81a007ff3c82" />
 <img width="814" height="753" alt="image" src="https://github.com/user-attachments/assets/1e99ddfa-892d-4644-bd30-26a548fa939f" />
-1. 	Maršrutētājs                                        Gigabit Ethernet porti, NAT atbalsts, Firewall funkcija, VLAN atbalsts, DHCP serveris, VPN funkcionalitāte
+1. 	Maršrutētājs                                         Gigabit Ethernet porti, NAT atbalsts, Firewall funkcija, VLAN atbalsts, DHCP serveris, VPN funkcionalitāte
 2.  Pārvaldāms komutators (Managed Switch)	            24x Gigabit RJ45 porti, Layer 3 funkcionalitāte, VLAN atbalsts, PoE atbalsts, 1 Gbit/s datu pārraide
 3.  Bezvadu piekļuves punkts (Access Point)	            Wi-Fi 6 standarts, WPA2/WPA3 drošība, Dual-Band 2.4 GHz/5 GHz, PoE barošana
 4.	Nepārtrauktās barošanas avots (UPS)	                1000–1500 VA jauda, aizsardzība pret sprieguma svārstībām, rezerves barošana līdz 20 minūtēm
