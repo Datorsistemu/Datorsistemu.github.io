@@ -136,37 +136,70 @@ Piemērs
 <img width="657" height="529" alt="image" src="https://github.com/user-attachments/assets/daaaa33c-f888-438c-8eea-9598a9474367" />
 <img width="641" height="481" alt="image" src="https://github.com/user-attachments/assets/45c6de78-db2e-4ba3-8689-a53f773fcef5" />
 
-cmd linux server command listSudo –v
+Sudo –v
+
 Sudo –i
+
 Apt update
+
 Apt install apache2
+
 Apt install libapache2-mod-php php php-mysql
+
 Sudo apt install openssh-server
+
 cd /var/www
+
 Ls
+
 Sudo chmod 777 html
+
 Cd html
+
 Sudo chmod 777 *.*
+
 Go to www folder made info.php
+
 ?php phpinfo (); ?
+
 Sudo apt install mysql-server
+
 Sudo apt-add-repository ppa:phpmyadmin-team
+
 Sudo apt install phpmyadmin
+
 Sudo mysql –u root –p
+
 CREATE USER ‘eksamens’ @’ localhost’ IDENTIFIED BY ‘PIKCot2026!’
+
 Grant all privileges on *.* to ‘eksamens’ @’ localhost’;
+
 Sudo groupadd SIA
+
 Sudo adduser –ingroup SIA web
+
 Sudo adduser –ingroup SIA tehnikis
+
 Sudo chown root:root /home/web
+
 Sudo chown root:root /home/tehnikis
+
 Sudo nano /etc/ssh/sshd_config
+
 Match group SIA
+
 ChrootDirectory %h
+
 ForceCommand internal-sftp
+
 Sudo service sshd restart
+
 Sudo -i
+
 Cd /home/web
+
 Mkdir www-html
+
 Ln –s /home/web/www-html /var/www/html
+
 Chown web /home/web
