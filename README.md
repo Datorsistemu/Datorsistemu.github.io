@@ -203,3 +203,15 @@ Mkdir www-html
 Ln –s /home/web/www-html /var/www/html
 
 Chown web /home/web
+
+IKT datortīkla projekts – Vārds Uzvārds
+
+Labdien!
+
+Pielikumā nosūtu ar paroli aizsargātu arhīvu, kurā atrodas izstrādātais IKT datortīkla projekts.
+
+Arhīva parole:
+Eksamens2025
+
+Ar cieņu,
+Vārds Uzvārds
