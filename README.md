@@ -215,3 +215,563 @@ Eksamens2025
 
 Ar cieņu,
 Vārds Uzvārds
+
+
+
+3. uzdevums Operētājsistēmas un/vai servera noskaņošana, lietojumprogrammu un utilītprogrammu instalācija. (izpildes laiks 60 minūtes)
+
+Dators - Linux
+
+1.
+
+Veikt cietā diska dalīšanu, izveidojot jaunu diska partīciju ar ietilpību 7GB
+
+2.
+
+Iestatīt, ka pēc piecām minūtēm, kad netiek strādāts, dators ir miega režīmā (Sleep)
+
+Izveidot lietotāju "eksamens" ar administratīvām tiesībām, ar paroli
+
+3.
+
+Lietotājs@12345
+
+4.
+
+Instalēt Open Office programmas tekstapstrādei un darbam ar izklājlapām
+
+5.
+
+Instalēt Opera un iestatīt, ka interneta pārlūkprogramma neatcerēsies paroles un vienmēr paprasīs, kur lejupielādēt datus
+
+6.
+
+Veikt tīkla printera instalāciju saskaņā ar Pielikums 1 atrodamajiem parametriem un veikt testa izdruku
+
+7.
+
+Uzstādīt OS interfeisa valodu - Latviešu
+
+8.
+
+Veikt tīkla konfigurāciju, pilnvērtīgam darbam tīklā Internet ar Pielikums 1 atrodamajiem parametriem
+
+9.
+
+Iestatīt, lai programmu palaidējā (Application launcher) izvēlnē netiek rādītas sadaļas Grafika, Multivide.
+
+10.
+
+Veikt otras loģiskās daļas šifrēšanu, piekļuve ar paroli Pin@987654
+
+11.
+
+Pievienot un noskaņot USB Wifi adapteri un izveidot bezvadu slēgumu tīklam ar Pielikums 1 atrodamajiem parametriem
+
+12.
+
+Sistēmai iestatīt īso datuma formātu: dd.MM.yy
+
+13.
+
+Pieslēgt projektoru un iestatīt paplašināto (Extended) projicēšanu
+
+14.
+
+Sistēmai iestatīt, lai valūtai decimālais atdalītājs ir punkts (.) un ciparu grupēšana ir pa diviem cipariem (piem., 12 34 67 89.00)
+
+15.
+
+Izveidot lietotāju Autologin ar lietotāja tiesībām. Nodrošināt, lai dators ieslēdzoties neprasa lietotāju un paroli, bet pēc noklusējuma autorizējas šajā kontā.
+
+Это билет очень похож на Linux-1, который ты уже делал. Для Linux Mint 22.1 + KDE Plasma (английский интерфейс) я бы выполнял пункты в таком порядке: 10 → 8 → 11 → 6 → остальные, потому что они обычно занимают больше всего времени.
+
+
+---
+
+1. Создать новый раздел диска 7 GB
+
+Открой:
+
+Menu → System → KDE Partition Manager
+
+Если программы нет:
+
+sudo apt install partitionmanager
+
+Дальше:
+
+1. Выбери диск.
+
+
+2. Найди свободное место.
+
+
+3. Right Click → New
+
+
+4. Size:
+
+
+
+7168 MB
+
+5. Filesystem:
+
+
+
+ext4
+
+6. OK
+
+
+7. Apply
+
+
+
+
+---
+
+2. Через 5 минут переводить компьютер в Sleep
+
+Открой:
+
+System Settings → Power Management → Energy Saving
+
+Поставь:
+
+Suspend session → After 5 min
+
+или
+
+Suspend computer → Sleep → 5 minutes
+
+Apply.
+
+
+---
+
+3. Создать пользователя eksamens
+
+Терминал:
+
+sudo adduser eksamens
+
+Пароль:
+
+User@12345
+
+Добавить в администраторы:
+
+sudo usermod -aG sudo eksamens
+
+Проверка:
+
+groups eksamens
+
+Должно быть:
+
+sudo
+
+
+---
+
+4. Установить OpenOffice
+
+Если LibreOffice уже установлен и учитель требует именно OpenOffice:
+
+Удалить:
+
+sudo apt remove libreoffice*
+sudo apt autoremove
+
+Скачать OpenOffice.
+
+Распаковать.
+
+Перейти в папку:
+
+cd ~/Downloads/en-US/DEBS
+
+Установить:
+
+sudo dpkg -i *.deb
+
+
+---
+
+5. Установить Opera
+
+Скачать:
+
+[Opera Browser](https://www.opera.com/download?utm_source=chatgpt.com)
+
+Установить .deb.
+
+После запуска:
+
+Не сохранять пароли
+
+Opera:
+
+Settings
+
+Поиск:
+
+password
+
+Отключить:
+
+Offer to save passwords
+
+
+---
+
+Всегда спрашивать куда скачивать
+
+Settings → Downloads
+
+Включить:
+
+Ask where to save each file before downloading
+
+
+---
+
+6. Установить сетевой принтер
+
+Если используется HP 1022n:
+
+IP пример:
+
+10.2.17.225
+
+Открыть:
+
+system-config-printer
+
+Если нет:
+
+sudo apt install system-config-printer
+
+Добавить:
+
+AppSocket/HP JetDirect
+
+Адрес:
+
+10.2.17.225
+
+Порт:
+
+9100
+
+Драйвер:
+
+HP LaserJet 1022n Foomatic/foo2zjs-z1
+
+или
+
+HP LaserJet 1022n zjs
+
+Потом:
+
+Print Test Page
+
+
+---
+
+7. Перевести систему на латышский
+
+Открыть:
+
+System Settings
+
+Дальше:
+
+Regional Settings
+
+→
+
+Language
+
+Добавить:
+
+Latviešu
+
+Перетащить наверх.
+
+Logout/Login.
+
+
+---
+
+8. Настроить сеть по параметрам из Pielikums 1
+
+Открыть:
+
+System Settings
+
+↓
+
+Connections
+
+↓
+
+IPv4
+
+Если дали IP вручную:
+
+Method = Manual
+
+Ввести:
+
+IP
+Mask
+Gateway
+DNS
+
+Если данные нужно взять из DHCP:
+
+ip a
+ip route
+
+
+---
+
+9. Убрать Graphics и Multimedia из меню
+
+KDE:
+
+ПКМ по меню
+
+↓
+
+Edit Applications
+
+Найти:
+
+Graphics
+
+Снять галку.
+
+Найти:
+
+Multimedia
+
+Снять галку.
+
+Save.
+
+
+---
+
+10. Зашифровать второй логический раздел
+
+Это один из самых важных пунктов.
+
+Открыть:
+
+sudo cryptsetup luksFormat /dev/sdXN
+
+Где sdXN — твой второй раздел.
+
+Подтвердить:
+
+YES
+
+Пароль:
+
+Pin@987654
+
+Проверка:
+
+sudo cryptsetup luksDump /dev/sdXN
+
+Если показывает:
+
+LUKS version 2
+
+значит всё сделано правильно.
+
+LUKS Encryption version 2 — это именно то, что обычно ожидают преподаватели.
+
+
+---
+
+11. Подключить USB Wi-Fi адаптер
+
+Вставить адаптер.
+
+Проверить:
+
+lsusb
+
+Открыть:
+
+System Tray → Network
+
+Выбрать сеть.
+
+Ввести параметры из Pielikums 1.
+
+
+---
+
+12. Формат даты dd.MM.yy
+
+Открыть:
+
+System Settings
+
+↓
+
+Regional Settings
+
+↓
+
+Formats
+
+Выбрать:
+
+Custom
+
+Short Date:
+
+dd.MM.yy
+
+Пример:
+
+17.06.26
+
+Apply.
+
+
+---
+
+13. Проектор Extended
+
+Подключить проектор.
+
+Открыть:
+
+System Settings
+
+↓
+
+Display and Monitor
+
+↓
+
+Display Configuration
+
+Выбрать:
+
+Extend to the right
+
+или
+
+Extended
+
+Apply.
+
+
+---
+
+14. Настроить число вида
+
+Требуется:
+
+12 34 67 89.00
+
+То есть:
+
+десятичный разделитель = точка
+
+группировка цифр по 2
+
+
+Открыть:
+
+System Settings
+
+↓
+
+Regional Settings
+
+↓
+
+Formats
+
+↓
+
+Numbers
+
+Поставить:
+
+Decimal separator:
+
+.
+
+Digit grouping:
+
+2
+
+Если KDE не позволяет сделать нестандартную группировку по 2 цифры, преподаватели обычно принимают настройку через Locale.
+
+
+---
+
+15. Пользователь Autologin
+
+Создать:
+
+sudo adduser Autologin
+
+Открыть:
+
+System Settings
+
+↓
+
+Login Screen (SDDM)
+
+↓
+
+Behavior
+
+↓
+
+Включить:
+
+Automatic Login
+
+Пользователь:
+
+Autologin
+
+Apply.
+
+Перезагрузка.
+
+Система должна входить автоматически без ввода пароля.
+
+
+---
+
+Самые сложные пункты в этом билете
+
+1. 10 — LUKS шифрование
+
+
+2. 6 — сетевой принтер
+
+
+3. 8 — сеть по Pielikums 1
+
+
+4. 14 — группировка цифр по 2
+
+
+
+Если на экзамене попадётся этот билет, то первым делом делай 10 пункт, потому что на него обычно уходит больше всего времени и именно его чаще всего проверяют очень внимательно.
